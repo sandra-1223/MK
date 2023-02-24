@@ -1,5 +1,5 @@
 /*--------------------- Top bar  -----------------------*/
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 62rem) {
   .topnav {
     flex-direction: row !important;
     justify-content: center !important;
@@ -59,23 +59,23 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5rem) {
 
   html,
   body {
     max-width: 100%;
     overflow-x: hidden;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .lorem {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     justify-content: center;
   }
 
   .lorem-text {
-    font-size: 16px;
+    font-size: 1rem;
     width: 100%;
     margin: 0 auto;
     justify-content: center;
@@ -131,7 +131,7 @@
     width: 100%;
     float: left;
     padding: 5%;
-    border: 2px;
+    border: 0.125rem;
   }
 
   .servicetext {
@@ -215,7 +215,7 @@
 }
 
 /* On tablets and up */
-@media (min-width:769px) {
+@media (min-width:48rem) {
 
   .img-move {
     position: absolute;
@@ -237,7 +237,7 @@
   }
 }
 
-@media screen and (max-width: 769px) and (min-width: 600px) {
+@media screen and (max-width: 48rem) and (min-width: 37.5rem) {
 
   .img-move {
     position: absolute;
